@@ -6,18 +6,18 @@ body {
 
 @font-face {
   font-family: "trebuchet";
-  src: url("./fonts/trebuc.woff");
+  src: url("../fonts/trebuc.woff");
 }
 
 @font-face {
   font-family: "segoepr";
-  src: url("./fonts/segoepr.ttf");
+  src: url("../fonts/segoepr.ttf");
 }
 
 .container {
   width: 100%;
   height: 100vh;
-  background-image: url("./images/restaurant.jpg");
+  background-image: url("../images/restaurant.jpg");
   background-size: 100% 800px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -122,4 +122,32 @@ span {
 .megapizzaimage {
   width: 50px;
   height: 50px;
+}
+
+.detailsdiv {
+  position: relative;
+  top: 20px;
+}
+
+.spane,
+.spanm {
+  position: absolute;
+  z-index: 999;
+  font-size: 50px;
+  left: 40%;
+  top: 50px;
+  cursor: pointer;
+}
+
+.spanm {
+  left: 48%;
+  top: 40px;
+}
+
+.detailsImg {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.rotate {
+  transform: rotate(10deg) !important;
 }
