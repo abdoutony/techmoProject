@@ -37,5 +37,8 @@ $(function () {
 });
 
 function takeMeToThanks() {
-  location.href = "/thanks.html";
+  location.href = "./thanks.html";
 }
+
+
+
